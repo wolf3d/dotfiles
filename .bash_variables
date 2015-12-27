@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
+export SCALA_HOME=/usr/local/share/scala
+export PULSE_LATENCY_MSEC=60
+export ANDROID_SDK_ROOT=/development/Android/android-studio
+

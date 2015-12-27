@@ -97,9 +97,9 @@ fi
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    echo "loading ~/.bash_aliases"
-    . ~/.bash_aliases
+if [ -f $HOME/.bash_aliases ]; then
+    echo "loading $HOME/.bash_aliases"
+    . $HOME/.bash_aliases
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -113,6 +113,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+if [ -f $HOME/.bash_variables ]; then
+    echo "sourcing $HOME/.bash_variables"
+    . $HOME/.bash_variables
+fi    
+
 if [ -f $HOME/.bash_path ]; then
     echo "sourcing $HOME/.bash_path"
     . $HOME/.bash_path
@@ -122,4 +128,3 @@ if [ -f $HOME/.bash_functions ]; then
     echo "sourcing $HOME/.bash_functions"
     . $HOME/.bash_functions
 fi
-
