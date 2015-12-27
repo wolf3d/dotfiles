@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# bins
+export PATH="$PATH:$SCALA_HOME/bin"
+export PATH="$PATH:~/bin"
+
+# development
+export PATH="$PATH:/development/Android/android-studio/bin"
+export PATH="$PATH:/development/Android/Sdk/tools"
+export PATH="$PATH:/development/eclipse"
+export PATH="$PATH:/development/VSCode-linux-x64"
+
+#export PATH=/development/mongodb/mongodb-linux-x86_64-3.0.7/bin:$PATH
+
+# opts
+export PATH="$PATH:/opt/Shotcut/Shotcut.app"
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
+export SCALA_HOME=/usr/local/share/scala
+export PULSE_LATENCY_MSEC=60
+export ANDROID_SDK_ROOT=/development/Android/android-studio
+
