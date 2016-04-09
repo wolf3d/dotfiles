@@ -128,3 +128,4 @@ if [ -f $HOME/.bash_functions ]; then
     echo "sourcing $HOME/.bash_functions"
     . $HOME/.bash_functions
 fi
+
